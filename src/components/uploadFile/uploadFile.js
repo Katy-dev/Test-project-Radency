@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useState} from 'react';
 import ReactFileReader from "react-file-reader";
 import Papa from 'papaparse';
 import style from "./upload.module.scss";
@@ -16,7 +16,7 @@ const UploadFile = () => {
     }
 
     const importCsv = (csvFile) => {
-        if  (csvFile) {
+        if (csvFile) {
             Papa.parse(csvFile, {
                 complete: updateData,
                 header: true
