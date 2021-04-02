@@ -1,0 +1,32 @@
+.wrapper__table{
+  margin: 0 auto;
+  padding-top: 2rem;
+    .wrapper__table__header {
+      border: 1px solid #dddddd;
+      background-color: #22AA22;
+      color: white;
+      .wrapper__table__th {
+        padding: .5rem 1rem;
+        border-right: 1px solid #dddddd;
+        text-align: center;
+      }
+    }
+        .wrapper__table__td {
+          border: 1px solid #dddddd;
+          padding: .4rem .75rem;
+        }
+        .wrapper__table__td__error {
+          background-color: rgb(240, 78, 78);
+          border: 1px solid #dddddd;
+          padding: 0 .5rem;
+          color: white;
+        }
+        .wrapper__table__tr {
+          border-right: 1px solid #dddddd;
+          text-align: center;
+        }
+        .wrapper__table__emptyRow {
+          text-align: center;
+          padding: 1rem;
+        }
+}
